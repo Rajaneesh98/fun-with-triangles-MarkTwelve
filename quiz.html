@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link href="quiz.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav class="navhead">
+      <h1>Triangle</h1>
+      <a href="/index.html" class="ancor">Is Triangle</a>
+      <a href="/quiz.html" class="ancor">Quiz</a>
+      <a href="/sides.html" class="ancor">Hypotenus</a>
+      <a href="/area.html" class="ancor">Area</a>
+    </nav>
+    <div class="container">
+      <div>
+        <h1>Quiz on triangles</h1>
+        <h3>For each correct answer you will get one point</h3>
+
+        <form id="form">
+          <div>
+            <p>
+              What is the third angle for the triangle where angle1 = 30° and
+              angle2 = 90°?
+            </p>
+            <label
+              ><input type="radio" name="question1" value="45" />45°
+            </label>
+            <label
+              ><input type="radio" name="question1" value="90" />90°
+            </label>
+            <label
+              ><input type="radio" name="question1" value="60" />60°
+            </label>
+            <label
+              ><input type="radio" name="question1" value="120" />120°
+            </label>
+          </div>
+
+          <div>
+            <p>A right angled triangle will definetly have this angle?</p>
+            <label><input type="radio" name="question2" value="90" />90</label>
+            <label><input type="radio" name="question2" value="80" />80</label>
+            <label><input type="radio" name="question2" value="60" />60</label>
+            <label><input type="radio" name="question2" value="40" />40</label>
+          </div>
+
+          <div>
+            <p>
+              What is the third angle for the triangle where angle1 = 35° and
+              angle2 = 25°?
+            </p>
+            <label><input type="radio" name="question3" value="45" />45°</label>
+            <label><input type="radio" name="question3" value="90" />90°</label>
+            <label><input type="radio" name="question3" value="60" />60°</label>
+            <label
+              ><input type="radio" name="question3" value="120" />120°</label
+            >
+          </div>
+
+          <div>
+            <p>An acute angle is where the the angle is less than?</p>
+            <label><input type="radio" name="question4" value="90" />90</label>
+            <label><input type="radio" name="question4" value="80" />80</label>
+            <label><input type="radio" name="question4" value="60" />60</label>
+            <label><input type="radio" name="question4" value="40" />40</label>
+          </div>
+
+          <div>
+            <p>An right angle is where the the angle is equal to?</p>
+            <label><input type="radio" name="question5" value="90" />90</label>
+            <label><input type="radio" name="question5" value="80" />80</label>
+            <label><input type="radio" name="question5" value="60" />60</label>
+            <label><input type="radio" name="question5" value="40" />40</label>
+          </div>
+
+          <div>
+            <p>An obtuse angle is where the the angle is greater than?</p>
+            <label><input type="radio" name="question6" value="90" />90</label>
+            <label><input type="radio" name="question6" value="80" />80</label>
+            <label><input type="radio" name="question6" value="60" />60</label>
+            <label><input type="radio" name="question6" value="40" />40</label>
+          </div>
+        </form>
+
+        <button id="btn">Submit Answers</button>
+
+        <h3 id="output"></h3>
+      </div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
